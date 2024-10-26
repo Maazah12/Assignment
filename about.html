@@ -10,11 +10,18 @@
 
 <body>
     <h1><center><u>About Me</u></center></h1>
-    <hr>
+    <style>
+        .styled-hr{
+            border: 0;
+            height: 10px;
+            background-color: red;
+        }
+    </style>
+    <hr class="styled-hr">
     <div>
         <center><img src="WhatsApp Image 2024-10-14 at 9.46.38 PM.jpeg" alt="This is my image" height="250" width="200"></center>
     </div>
-    <hr>
+    <hr class="styled-hr">
 
     <p>Lorem ipsum dolor sit amet consectetur <b>adipisicing elit.Consequator</b> ad alias impedit Neque, quas magnam.
         Placeat necessitatibus deserunt
@@ -43,46 +50,47 @@
         <li>Watching Documentries</li>
         <li>Travelling</li>
     </ol>
+    <hr class="styled-hr">
+    <center><h2>Here's a table</h2></center>
 
-    <table border="1" cellpadding="10">
-        <tr>
-            <td>Skill 1</td>
-            <td>Skill 2</td>
-            <td>Skill 3</td>
+    <center><table border="1" cellpadding="25">
+        <center><tr>
+            <td style="color: aquamarine;">Skill 1</td>
+            <td style="color: aquamarine;">Skill 2</td>
+            <td style="color: aquamarine;">Skill 3</td>
         </tr>
         <tr>
-            <td> <abbr title="Hyper Text Markup Language">HTML</abbr></td>
-            <td>CSS</td>
-            <td>JavaScript</td>
+            <td style="color: chartreuse;"> <abbr title="Hyper Text Markup Language">HTML</abbr></td>
+            <td style="color: chartreuse;">CSS</td>
+            <td style="color: chartreuse;">JavaScript</td>
         </tr>
-    </table><br>
-    <hr>
+    </table></center><br>
+    <hr class="styled-hr">
     <h2><u>Here's my iframe work.</u></h2>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.571075092782!2d67.19570202595348!3d24.91260829316779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3377b02c89ec7%3A0x8f7391d696dcb02e!2sMalir%20Cantt%20Check%20Post%20No%202%2C%20Malir%20Cantonment%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1729889676106!5m2!1sen!2s"
         width="400" height="300">
 
     </iframe>
-    <hr>
+    <hr class="styled-hr">
     <h2><u>Here's my audio work.</u></h2>
     <p>"Birdsong: the melody that invites the sun to rise."</p><br>
     <audio src="audio.mp3" controls loop>
 
     </audio>
-    <hr>
+    <hr class="styled-hr">
     <h2><u>Here's my video work.</u></h2>
     <p>"Nature’s beauty – a gentle reminder of life’s simplest treasures, hidden in every sunrise, whispered by each
         rustling leaf, and painted across the endless sky. It teaches us that the most precious things are often those
         we overlook, waiting quietly for us to pause, breathe, and simply marvel."
 
         This extended version brings out a sense of peace and reverence for nature's quiet, everyday wonders.</p><br>
-    <video src="video.mp4" controls loop>
+    <video src="video.mp4" controls loop poster="Capture.JPG">
 
     </video>
-    <hr>
-    <a href="index.html">Go back</a><br>
-    <br>
-    <a href="contact.html">Any queries so contact me.</a>
+    <hr class="styled-hr">
+    <h3><a href="index.html">Go back</a></h3>
+    <h3><a href="contact.html">Any queries so contact me.</a></h3>
 </body>
 
 </html>
